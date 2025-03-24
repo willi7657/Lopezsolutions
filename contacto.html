@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contáctanos - LopezSolutions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1>LopezSolutions</h1>
+            <img src="Imagen de WhatsApp 2025-03-03 a las 14.21.51_806dd957.jpg" alt="Foto de Willi" class="foto-perfil">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="contacto">
+        <h2>Envíanos un mensaje</h2>
+        <form action="gracias.html" method="GET">
+            <form action="https://formsubmit.co/elwilli175@gmail.com" method="POST">
+                <input type="hidden" name="_next" value="gracias.html">
+                <input type="hidden" name="_captcha" value="false">
+                
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="mensaje">Dejanos saber tu problema:</label>
+                <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>            
